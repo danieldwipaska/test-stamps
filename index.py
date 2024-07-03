@@ -1,4 +1,6 @@
 class Vehicle:
+    name = 'car'
+
     def __init__(self, make, model) -> None:
         self.make = make
         self.model = model
@@ -14,3 +16,4 @@ my_car.moves()
 my_car2.moves()
 print(my_car.make)
 print(my_car2.make)
+print('Hello World')
